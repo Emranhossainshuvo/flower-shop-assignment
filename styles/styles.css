@@ -1,0 +1,41 @@
+.header{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-around;
+}
+.header-description{
+    /* border: 2px solid red; */
+    height: auto;
+    width: auto;
+    /* justify-content: center; */
+    padding: 10px;
+}
+.header-description-title{
+
+    width: 708px;
+    font-family: 'Lato', sans-serif;
+    font-size: 80px;
+    margin-top: 0px;
+    font-weight: 900;
+    margin-bottom: 0px;
+
+}
+.header-paragraph{
+    width: 634px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-family: 'Lato', sans-serif;
+    color: rgba(39, 39, 39, 0.60);
+}
+.header-button{
+    margin-top: 0px;
+    padding: 20px 43px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    font-family:'lato', sans-serif;
+    color: white;
+    background-color: #E55473;
+    border: 0;
+}
