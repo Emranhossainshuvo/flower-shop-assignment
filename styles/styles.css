@@ -1,17 +1,20 @@
-.header{
+.header {
     display: flex;
     /* justify-content: center; */
     align-items: center;
     justify-content: space-around;
+    /* margin-bottom: 48px; */
 }
-.header-description{
+
+.header-description {
     /* border: 2px solid red; */
     height: auto;
     width: auto;
     /* justify-content: center; */
     padding: 10px;
 }
-.header-description-title{
+
+.header-description-title {
 
     width: 708px;
     font-family: 'Lato', sans-serif;
@@ -21,21 +24,87 @@
     margin-bottom: 0px;
 
 }
-.header-paragraph{
+
+.header-paragraph {
     width: 634px;
     margin-top: 32px;
     margin-bottom: 32px;
     font-family: 'Lato', sans-serif;
     color: rgba(39, 39, 39, 0.60);
 }
-.header-button{
+
+.header-button {
     margin-top: 0px;
     padding: 20px 43px;
     border-radius: 8px;
     font-weight: 700;
     font-size: 20px;
-    font-family:'lato', sans-serif;
+    font-family: 'lato', sans-serif;
     color: white;
     background-color: #E55473;
     border: 0;
+}
+
+.featured-description {
+    text-align: center;
+    margin-top: 174px;
+    margin-bottom: 48px;
+}
+
+.featured-heading {
+
+    font-family: 'lato', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.featured-paragraph {
+    font-family: 'lato', sans-serif;
+    margin-top: 0px;
+    color: rgba(39, 39, 39, 0.60);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+
+
+
+.image-two {
+    height: auto;
+    width: 464px;
+    /* background-color: rgba(1, 10, 18, 0.865); */
+    /* border-top-right-radius: 200px;
+    border-top-left-radius: 200px; */
+    /* background-size: auto; */
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(10, 224, 235, 0.259);
+}
+
+.image-one{
+    height: auto;
+    width: 464px;
+    /* background-color: rgba(1, 10, 18, 0.865); */
+    /* border-top-right-radius: 200px;
+    border-top-left-radius: 200px; */
+    /* background-size: auto; */
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.186);
+}
+.image-three{
+    height: auto;
+    width: 464px;
+    /* background-color: rgba(1, 10, 18, 0.865); */
+    /* border-top-right-radius: 200px;
+    border-top-left-radius: 200px; */
+    /* background-size: auto; */
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.186);
+}
+.featured-images {
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    
 }
