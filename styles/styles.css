@@ -148,3 +148,27 @@
     /* justify-content: center; */
     margin-left: 210px;
 }
+.socia-section-description{
+    text-align: center;
+    margin-top: 128px;
+}
+.social-section-header{
+    color: #272727;
+    font-family: 'lato', sans-serif;
+    font-size: 40px;
+    font-weight: 899;
+    margin-bottom: 24px;
+}
+.social-section-paragraph{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: 'lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 48px;
+}
+.social-section-images{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0px;
+}
