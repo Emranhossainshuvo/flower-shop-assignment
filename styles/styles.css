@@ -215,7 +215,9 @@
     margin-left: 600px;
     height: 64px;
     width: 700px;
+    padding-left: 22px;
     /* border: 0; */
+    border-style: none;
 }
     
 .latest-deal-button {
@@ -229,6 +231,7 @@
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 40px;
+    margin-top: 30px;
 }
 .extra-section-lists{
     display: flex;
@@ -268,6 +271,7 @@ footer{
     font-size: 48px;
     font-weight: 800;
     padding-top: 128px;
+    padding-bottom: 30px;
     /* padding-bottom: 24px; */
 }
 .footer-span{
