@@ -33,7 +33,7 @@
     color: rgba(39, 39, 39, 0.60);
 }
 
-.header-button {
+.header-button, .sign-up-button {
     margin-top: 0px;
     padding: 20px 43px;
     border-radius: 8px;
@@ -118,4 +118,33 @@
 
 .extra {
     margin-top: 160px;
+}
+.hot-deal-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 128px;
+}
+.hot-deal-heading{
+    color: #272727;
+    font-family: 'lato', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.off-specific{
+    color: #E55473;
+}
+.hot-deal-paragraph{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'lato', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+.sign-up-button{
+    /* justify-content: center; */
+    margin-left: 210px;
 }
