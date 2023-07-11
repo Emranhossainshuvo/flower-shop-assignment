@@ -228,6 +228,7 @@
     font-family: 'lato', sans-serif;
     font-size: 40px;
     font-weight: 800;
+    margin-bottom: 40px;
 }
 .extra-section-lists{
     display: flex;
@@ -236,6 +237,9 @@
 .extra-section-lists >ul{
     list-style: none;
 
+}
+.extra-uls{
+    padding-bottom: 40px;
 }
 .extra-single-list{
     color: rgba(39, 39, 39, 0.60);
@@ -285,5 +289,6 @@ footer{
     font-weight: 400;
     text-align: center;
     padding-top: 0px;
+    padding-bottom: 50px;
     /* margin-top: 128px; */
 }
