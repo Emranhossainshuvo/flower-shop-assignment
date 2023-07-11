@@ -1,3 +1,7 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
 .header {
     display: flex;
     /* justify-content: center; */
@@ -115,6 +119,7 @@
 
 .extra {
     margin-top: 160px;
+    /* margin-bottom: 100px; */
 }
 
 .hot-deal-section {
@@ -198,15 +203,16 @@
 }
 
 .latest-deal-description {
-    border: 2px solid indigo;
+    border: 2px solid rgb(214, 187, 233);
     margin-top: 128px;
     width:auto;
     height: 449px;
     background-image: url(../Rectangle\ 9.png);
+    background-size: cover;
 }
 
 .latest-email {
-    margin-left: 400px;
+    margin-left: 600px;
     height: 64px;
     width: 700px;
     /* border: 0; */
@@ -245,4 +251,39 @@
     margin-top: 80px;
     background-color: #fab1c17c;
     border-radius: 10px;
+    border: 2px solid pink;
+}
+footer{
+    background-color: black;
+    margin-top: 128px;
+}
+.footer-heading{
+    color: #ffff;
+    text-align: center;
+    font-family: 'lato', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    padding-top: 128px;
+    /* padding-bottom: 24px; */
+}
+.footer-span{
+    color: #E55473;
+}
+.footer-text{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.90);
+    font-family: 'lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 0px;
+    padding-bottom: 25px;
+}
+.shop-ownership{
+    color: rgba(255, 255, 255, 0.40);
+    font-family: 'lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 0px;
+    /* margin-top: 128px; */
 }
