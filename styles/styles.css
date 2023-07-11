@@ -216,3 +216,33 @@
     margin-left: 16px;
     margin-top: 100px;
 }
+.extra-section-heading{
+    text-align: center;
+    color: black;
+    font-family: 'lato', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+.extra-section-lists{
+    display: flex;
+    justify-content: space-evenly;
+}
+.extra-section-lists >ul{
+    list-style: none;
+
+}
+.extra-single-list{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: 'lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.extra-uls:hover{
+    background-color: #E55473;
+    border-radius: 5px;
+}
+.extra-section{
+    margin-top: 80px;
+    background-color: #fab1c17c;
+    border-radius: 10px;
+}
