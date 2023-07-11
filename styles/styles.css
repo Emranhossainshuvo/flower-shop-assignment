@@ -33,7 +33,9 @@
     color: rgba(39, 39, 39, 0.60);
 }
 
-.header-button, .sign-up-button {
+.header-button,
+.sign-up-button,
+.latest-deal-button {
     margin-top: 0px;
     padding: 20px 43px;
     border-radius: 8px;
@@ -97,12 +99,7 @@
     height: 538px;
 }
 
-.singe-images {
-    /* justify-content: center; */
-    /* text-align: center; */
-    /* margin-top: ; */
 
-}
 
 .images-text {
     margin-top: 100px;
@@ -119,23 +116,27 @@
 .extra {
     margin-top: 160px;
 }
-.hot-deal-section{
+
+.hot-deal-section {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 128px;
 }
-.hot-deal-heading{
+
+.hot-deal-heading {
     color: #272727;
     font-family: 'lato', sans-serif;
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 24px;
 }
-.off-specific{
+
+.off-specific {
     color: #E55473;
 }
-.hot-deal-paragraph{
+
+.hot-deal-paragraph {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
@@ -144,22 +145,26 @@
     margin-bottom: 32px;
     text-align: center;
 }
-.sign-up-button{
+
+.sign-up-button {
     /* justify-content: center; */
     margin-left: 210px;
 }
-.socia-section-description{
+
+.socia-section-description {
     text-align: center;
     margin-top: 128px;
 }
-.social-section-header{
+
+.social-section-header {
     color: #272727;
     font-family: 'lato', sans-serif;
     font-size: 40px;
     font-weight: 899;
     margin-bottom: 24px;
 }
-.social-section-paragraph{
+
+.social-section-paragraph {
     color: rgba(39, 39, 39, 0.60);
     font-family: 'lato', sans-serif;
     font-size: 18px;
@@ -167,8 +172,47 @@
     margin-top: 0px;
     margin-bottom: 48px;
 }
-.social-section-images{
+
+.social-section-images {
     display: flex;
     justify-content: space-evenly;
     margin-top: 0px;
+}
+
+.latest-deal-header {
+    margin-top: 122px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'lato', sans-serif;
+    margin-bottom: 16px;
+}
+
+.latest-deal-text {
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: 'lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.latest-deal-description {
+    border: 2px solid indigo;
+    margin-top: 128px;
+    width:auto;
+    height: 449px;
+    background-image: url(../Rectangle\ 9.png);
+}
+
+.latest-email {
+    margin-left: 400px;
+    height: 64px;
+    width: 700px;
+    /* border: 0; */
+}
+    
+.latest-deal-button {
+    margin-left: 16px;
+    margin-top: 100px;
 }
